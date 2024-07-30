@@ -1,0 +1,94 @@
+body{
+  background-color: rgb(33, 37, 41);
+}
+
+.location{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+h1{
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+  font-size: 3rem;
+  color: aqua;
+  text-shadow: 0 0 5px black;
+}
+#map { 
+  border: 1px solid black;
+  height: 35rem;
+  width: 70rem; 
+border-radius: 10px;
+margin-bottom: 50px;
+}
+.name-head{
+font-size: 20px;
+font-weight: bold;
+display: grid;
+text-align: center;
+margin: 0px;
+padding: 0px;
+font-style: italic;
+font-family: Arial;
+}
+p.address{
+margin: 0px;
+padding: 0px;
+display: grid;
+text-align: center;
+}
+p.lead{
+margin: 0px;
+padding: 10px;
+display: grid;
+text-align: center;
+}
+.lead{
+text-decoration: none;
+}
+div.leaflet-popup-content-wrapper{
+border: 1px solid black;
+}
+.so-logo{
+height: 60px;
+width: 140px;
+margin: 0px;
+padding: 0px;
+}
+a.navbar.brand{
+margin: 0px;
+padding: 0px;
+}
+.so-logo{
+  height: 50px;
+  width: 120px;
+  margin: 0px;
+  padding: 0px;
+}
+a.navbar.brand{
+  margin: 0px;
+  padding: 0px;
+}
+ul li.nav-item{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-size: 17px;
+}
+p.lead{
+  color: white;
+  
+}
+.col-md{
+  margin-top: 80px;
+}
+.copyright{
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
