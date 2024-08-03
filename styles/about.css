@@ -48,6 +48,11 @@ ul li.nav-item{
   text-decoration: none;
   font-size: 17px;
 }
+iframe {
+  border: 0;
+  width: 600px;
+  height: 450px;
+}
 .copyright{
   text-align: center;
   margin-top: 0px;
