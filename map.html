@@ -112,8 +112,8 @@
   <script>
     if('geolocation' in navigator){
         navigator.geolocation.getCurrentPosition(pos=>{
-            var latitude = "12.9783547";
-            var longitude = "77.5728609";
+            var latitude = pos.coords.latitude;
+            var longitude = pos.coords.longitude;
             // Display the map
             var map = L.map('map').setView([latitude, longitude], 13);
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
